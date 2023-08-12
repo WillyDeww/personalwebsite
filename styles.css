@@ -1,0 +1,17 @@
+img {
+  border-radius: 50%;
+}
+.gradient-background {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(44,29,253,0.9124723451327433) 50%, rgba(252,176,69,1) 100%);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+body {
+  color: aliceblue;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
